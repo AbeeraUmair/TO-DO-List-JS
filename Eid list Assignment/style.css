@@ -1,0 +1,35 @@
+.abc {
+    margin-right: 0px;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+#inp {
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 150px;
+}
+
+#ul {
+    margin-top: 20px;
+}
+
+.li {
+    width: 300px;
+    list-style-type: decimal;
+    text-transform: capitalize;
+}
+
+.edit {
+    width: 80px;
+    text-transform: capitalize;
+    margin: 10px; 
+}
+
+.delete {
+    width: 80px;
+    text-transform: capitalize;
+    margin: 10px;
+} 
