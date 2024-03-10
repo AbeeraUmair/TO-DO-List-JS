@@ -7,6 +7,7 @@ function foo() {
     getul.appendChild(li)
     li.appendChild(liText)
     a.valuE = ''
+    document.getElementById('inp').value=''
     li.setAttribute('class', 'li')
 
     var deletebtn = document.createElement('button')
@@ -38,4 +39,5 @@ function edit(e) {
 
 function del() {
     getul.innerHTML = ''
+    document.getElementById('inp').value=''
 }
